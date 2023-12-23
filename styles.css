@@ -35,6 +35,12 @@ body {
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
     transition: transform 0.5s ease-in-out;
 }
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
 .quote {
     width: 730px;
     height: 45px;
